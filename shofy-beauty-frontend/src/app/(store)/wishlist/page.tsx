@@ -3,9 +3,9 @@
 import React from 'react'
 import Link from 'next/link'
 import { Heart, ShoppingBag, Trash2 } from 'lucide-react'
-import { useWishlist } from '../../context/WishlistContext'
-import { useCart } from '../../context/CartContext'
-import { urlFor } from '../../lib/sanity.client'
+import { useWishlist } from '../../../context/WishlistContext'
+import { useCart } from '../../../context/CartContext'
+import { urlFor } from '../../../lib/sanity.client'
 
 export default function WishlistPage() {
   const { wishlist, removeFromWishlist } = useWishlist()

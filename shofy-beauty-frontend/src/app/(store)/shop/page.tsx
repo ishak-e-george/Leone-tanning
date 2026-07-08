@@ -1,8 +1,8 @@
 import React, { Suspense } from 'react'
-import { client } from '../../lib/sanity.client'
-import { allProductsQuery, categoriesQuery } from '../../lib/queries'
+import { client } from '../../../lib/sanity.client'
+import { allProductsQuery, categoriesQuery } from '../../../lib/queries'
 import ShopClient from './ShopClient'
-import { Category, Product } from '../../types'
+import { Category, Product } from '../../../types'
 
 export const revalidate = 60 // Enable ISR
 

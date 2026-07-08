@@ -1,9 +1,9 @@
 import React from 'react'
 import { Metadata } from 'next'
 import { PortableText } from '@portabletext/react'
-import { client } from '../../lib/sanity.client'
-import { pageBySlugQuery } from '../../lib/queries'
-import { StaticPage } from '../../types'
+import { client } from '../../../lib/sanity.client'
+import { pageBySlugQuery } from '../../../lib/queries'
+import { StaticPage } from '../../../types'
 
 export const revalidate = 60 // Enable ISR
 

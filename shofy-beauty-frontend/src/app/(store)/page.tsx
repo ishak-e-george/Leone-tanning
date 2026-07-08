@@ -1,12 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
 import { Sparkles, Truck, ShieldCheck, HeartHandshake } from 'lucide-react'
-import { client } from '../lib/sanity.client'
-import { bannersQuery, categoriesQuery, featuredProductsQuery } from '../lib/queries'
-import HeroBanner from '../components/HeroBanner'
-import CategoryGrid from '../components/CategoryGrid'
-import ProductCard from '../components/ProductCard'
-import { Banner, Category, Product } from '../types'
+import { client } from '../../lib/sanity.client'
+import { bannersQuery, categoriesQuery, featuredProductsQuery } from '../../lib/queries'
+import HeroBanner from '../../components/HeroBanner'
+import CategoryGrid from '../../components/CategoryGrid'
+import ProductCard from '../../components/ProductCard'
+import { Banner, Category, Product } from '../../types'
 
 export const revalidate = 60 // Enable ISR - page updates every 60s automatically
 

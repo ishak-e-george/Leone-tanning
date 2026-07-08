@@ -3,8 +3,8 @@
 import React, { useState, useEffect, useMemo } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { Filter, SlidersHorizontal, Check } from 'lucide-react'
-import ProductCard from '../../components/ProductCard'
-import { Category, Product } from '../../types'
+import ProductCard from '../../../components/ProductCard'
+import { Category, Product } from '../../../types'
 
 interface ShopClientProps {
   initialProducts: Product[]

@@ -3,10 +3,10 @@
 import React, { useState } from 'react'
 import { Plus, Minus, Heart, ShoppingBag, Truck, RotateCcw, ShieldCheck } from 'lucide-react'
 import { PortableText } from '@portabletext/react'
-import { Product } from '../../../types'
-import { urlFor } from '../../../lib/sanity.client'
-import { useCart } from '../../../context/CartContext'
-import { useWishlist } from '../../../context/WishlistContext'
+import { Product } from '../../../../types'
+import { urlFor } from '../../../../lib/sanity.client'
+import { useCart } from '../../../../context/CartContext'
+import { useWishlist } from '../../../../context/WishlistContext'
 
 interface ProductDetailClientProps {
   product: Product

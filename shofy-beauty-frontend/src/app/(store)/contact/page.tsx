@@ -1,9 +1,9 @@
 import React from 'react'
 import { Metadata } from 'next'
 import { Mail, Phone, MapPin, Clock } from 'lucide-react'
-import { client } from '../../lib/sanity.client'
-import { siteSettingsQuery } from '../../lib/queries'
-import { SiteSettings } from '../../types'
+import { client } from '../../../lib/sanity.client'
+import { siteSettingsQuery } from '../../../lib/queries'
+import { SiteSettings } from '../../../types'
 import ContactForm from './ContactForm'
 
 export const revalidate = 60 // Enable ISR

@@ -3,8 +3,8 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
 import { Plus, Minus, Trash2, ShoppingBag, MessageSquare } from 'lucide-react'
-import { useCart } from '../../context/CartContext'
-import { urlFor } from '../../lib/sanity.client'
+import { useCart } from '../../../context/CartContext'
+import { urlFor } from '../../../lib/sanity.client'
 
 interface CartClientProps {
   defaultWhatsappNumber?: string
