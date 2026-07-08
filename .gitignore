@@ -1,0 +1,23 @@
+# Dependency directories
+node_modules/
+shofy-beauty-frontend/node_modules/
+shofy-beauty-studio/node_modules/
+
+# Next.js build output
+.next/
+shofy-beauty-frontend/.next/
+
+# Local environment variables
+.env.local
+shofy-beauty-frontend/.env.local
+shofy-beauty-studio/.env.local
+
+# Debug and log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.sanity/
+
+# Operating system files
+.DS_Store
+Thumbs.db
